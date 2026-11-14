@@ -79,7 +79,7 @@
   <h2>Sharing how you play</h2>
   <p>In the European Union, the UK and Switzerland, the game shares how you play only if you say yes in Google's
   consent form. Everywhere else, it shares how you play unless you turn off the Share play data switch in Settings.
-  When it shares, the game sends Google Analytics for Firebase:</p>
+  When it shares, the game sends Unity Analytics and Google Analytics for Firebase:</p>
   <ul>
     <li>each time you open the game, with how many times you have opened it, and how long you played;</li>
     <li>each step of the first-time guide you finish;</li>
@@ -88,15 +88,23 @@
     <li>each time you open the shop, and each item you get from it;</li>
     <li>each offer of an ad for a reward: when it shows, and whether the ad played and the reward came;</li>
     <li>each daily reward you collect;</li>
-    <li>your phone's model, Android version, screen size and language, your country, and the game's version;</li>
-    <li>an id Google makes for this installation of the game, and your phone's advertising ID. Google reads your
-    general location from your IP address, which it shortens before using.</li>
+    <li>each research you start in the Lab, and each helper you get or seat, with its rarity;</li>
+    <li>each time you leave the game: the screen you were on, your level, how long you had played and how long since
+    your last tap, and, the first time, how long the game took to load;</li>
+    <li>your phone's model, Android version, processor, graphics, memory, screen size, battery level and volume, your
+    language and country, and the game's version;</li>
+    <li>the ids these services make for this installation of the game. Unity's includes a scrambled form of the ID
+    Android gives this game on your phone. Google's includes an id for this installation and your phone's advertising
+    ID, and it reads your general location from your IP address, which it shortens before using.</li>
   </ul>
-  <p>Google Analytics for Firebase also counts on its own when the game is first opened, each session, updates,
-  purchases made through Google Play and when the game is removed.</p>
+  <p>Unity Analytics also counts on its own the first time you play, when the game starts and stops and how long it
+  stays open, and, through Unity's purchase library, each purchase made through Google Play. Google Analytics for
+  Firebase also counts on its own when the game is first opened, each session, updates, purchases made through Google
+  Play and when the game is removed.</p>
   <p>It never sends your name. We use it to balance the game, to see where new players stop, and to see which
-  of our own ads bring players who keep playing. Google handles it for us under
-  <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and
+  of our own ads bring players who keep playing. Unity handles it for us under
+  <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity's Game Player and App User Privacy
+  Policy</a>, and Google under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and
   <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its
   services</a>.</p>
   <p>When it shares, the game also sends Meta (Facebook) app events: that the game was installed and opened, when you
@@ -104,9 +112,9 @@
   and country. We use it to tell Meta which of our Facebook and Instagram ads bring players who keep playing. Meta
   handles it under <a href="https://www.facebook.com/privacy/policy/">Meta's Privacy Policy</a>. Turning sharing off
   stops anything more going to Meta; what Meta already has stays with Meta, and you can ask Meta to delete it.</p>
-  <p>If you say no in Google's form, or turn the switch off, the game sends nothing more. You can change your answer
-  any time in Settings: under Ad choices in the European Union, the UK and Switzerland, with the Share play data switch
-  everywhere else.</p>
+  <p>If you say no in Google's form, or turn the switch off, the game sends nothing more to any of them. You can
+  change your answer any time in Settings: under Ad choices in the European Union, the UK and Switzerland, with the
+  Share play data switch everywhere else.</p>
 
   <h2>Why we may use it</h2>
   <ul>
@@ -140,10 +148,10 @@
 
   <h2>Keeping it safe</h2>
   <p>Everything the game sends goes over an encrypted connection. The game uses no servers of ours and no crash
-  reporting of ours. We see what you share about how you play on Google's dashboard, each order on Google Play (what
-  was bought, when, its price and the country), and totals of the ads watched. We never see your card, and we never
-  sell your information. Unity and Google may handle it in the United States and other countries, under their own
-  policies.</p>
+  reporting of ours. We see what you share about how you play on Unity's, Google's and Meta's dashboards, each order on Google
+  Play (what was bought, when, its price and the country), and totals of the ads watched. We never see your card, and
+  we never sell your information. Unity, Google and Meta may handle it in the United States and other countries, under
+  their own policies.</p>
 
   <h2>Google Play</h2>
   <p>Google Play downloads and updates the game under
@@ -156,9 +164,9 @@
     <li>The save on your phone is deleted when you uninstall the game, or when you clear its storage in your phone's
     settings.</li>
     <li>What the game shared about how you play: take your yes back under Ad choices in Settings (in the European
-    Union, the UK and Switzerland) or turn off Share play data in Settings (everywhere else). That stops the sending
-    and clears Google's id for this installation on your phone. You can also write to us at the address below and we
-    will ask Google to delete it.</li>
+    Union, the UK and Switzerland) or turn off Share play data in Settings (everywhere else). That stops the sending,
+    asks Unity to delete what your phone sent and clears Google's id for this installation on your phone. You can also
+    write to us at the address below and we will ask Unity and Google to delete it.</li>
     <li>What the ad service and Unity's purchase library received is kept by Unity under its policy above, which tells
     how to ask Unity to see or delete it; deleting your advertising ID in your phone's settings cuts the link to
     it.</li>
